@@ -1,0 +1,43 @@
+.App {
+    margin: 40px;
+    display: flex;
+    font-family: "Arial";
+}
+
+.listBody {
+    width: 200px;
+    margin-right: 40px;
+}
+
+.listUnit {
+    padding: 10px 20px;
+    border: 1px solid gray;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.listUnit:hover {
+    background-color: #057cf5;
+    color: white;
+    scale: 1.1;
+    border-radius: 10px;
+}
+
+.detailsBody {
+    width: 200px;
+}
+.avatar {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+}
+.userName {
+    padding: 10px 20px;
+    border: 1px solid gray;
+    font-size: 18px;
+}
+.userInfo {
+    padding: 10px 20px;
+    border: 1px solid gray;
+}
+
